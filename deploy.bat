@@ -14,6 +14,8 @@ if "%ENV%"=="dev" (
 	echo "invalid environment"
 	exit 0
 ) 
+
+//dsvfsd
 echo "fetching from origin..."
 call git fetch
 echo "checking out develop branch..."
